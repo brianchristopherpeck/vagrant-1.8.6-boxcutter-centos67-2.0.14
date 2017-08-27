@@ -7,7 +7,7 @@ pocd_nodes = [
 
 pocd_node = { :host => "cm-571-template", :ip => "10.10.45.9", :box => "boxcutter/centos67", :version => "2.0.14", :ram => 512, :cpu => 2, :gui => false}
 varDomain = "poc-d.internal"
-varRepository = "/Users/brianpeck/Developer/REPOSITORY/"
+varRepository = "./REPOSITORY/"
 
 Vagrant.configure("2") do |config| # Config variable here represents the vagrant system
 	config.hostmanager.enabled = true # Enables host manager
