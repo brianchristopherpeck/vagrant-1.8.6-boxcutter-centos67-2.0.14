@@ -1,8 +1,7 @@
 # Works with vagrant 1.8.6 and virtual box 5.1.14
 pocd_nodes = [
-	{ :host => "cm-571-template", :ip => "10.10.45.9", :box => "boxcutter/centos67", :version => "2.0.14", :ram => 512, :cpu => 2, :gui => false},
-	{ :host => "cm-571-template2", :ip => "10.10.45.10", :box => "boxcutter/centos67", :version => "2.0.14", :ram => 512, :cpu => 2, :gui => false},
-	{ :host => "cm-571-template3", :ip => "10.10.45.11", :box => "boxcutter/centos67", :version => "2.0.14", :ram => 512, :cpu => 2, :gui => false}
+	{ :host => "cm-571-template", :ip => "10.10.45.9", :box => "boxcutter/centos67", :version => "2.0.14", :ram => 1024, :cpu => 1, :gui => false},
+	{ :host => "cm-571-template2", :ip => "10.10.45.10", :box => "boxcutter/centos67", :version => "2.0.14", :ram => 2048, :cpu => 2, :gui => false}
 ]
 
 pocd_node = { :host => "cm-571-template", :ip => "10.10.45.9", :box => "boxcutter/centos67", :version => "2.0.14", :ram => 512, :cpu => 2, :gui => false}
