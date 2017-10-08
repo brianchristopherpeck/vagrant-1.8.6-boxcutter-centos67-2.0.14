@@ -3,7 +3,7 @@
 varManagerServer = "pocd-cm572-template-manager"
 varTemplateNode = "pocd-cm572-template-node"
 varWebSubDir = "parcels"
-varWebExportedRepoDir = "cdh-parcels"
+varWebExportedRepoDir = "cdh5-parcels"
 
 
 pocd_nodes = [
