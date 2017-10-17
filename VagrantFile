@@ -7,8 +7,8 @@ varWebExportedRepoDir = "_cdh5-parcels"
 
 
 pocd_nodes = [
-	{ :host => "#{varManagerServer}", :ip => "10.10.45.9", :box => "boxcutter/centos67", :version => "2.0.14", :ram => 1024, :cpu => 1, :gui => false},
-	{ :host => "#{varTemplateNode}", :ip => "10.10.45.10", :box => "boxcutter/centos67", :version => "2.0.14", :ram => 2048, :cpu => 2, :gui => false}
+	{ :host => "#{varManagerServer}", :ip => "10.10.45.9", :box => "boxcutter/centos67", :version => "2.0.14", :ram => 3172, :cpu => 2, :gui => false},
+	{ :host => "#{varTemplateNode}", :ip => "10.10.45.10", :box => "boxcutter/centos67", :version => "2.0.14", :ram => 3172, :cpu => 2, :gui => false}
 ]
 
 varDomain = "poc-d.internal"
