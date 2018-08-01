@@ -86,3 +86,11 @@ Vagrant.configure("2") do |config| # Config variable here represents the vagrant
 		end
 	end
 end 
+
+# Package commands for the Cloudera Manager and Node box
+# vagrant package --base pocd-cm572-template-manager --output pocd-cm572-manager.box
+# vagrant package --base pocd-cm572-template-node --output pocd-cm572-node.box
+
+# Commands to register new vagrant boxes
+# vagrant box add pocd-cm572-manager /var/vhost/vagrant-1.8.6-boxcutter-centos67-2.0.14
+# vagrant box add pocd-cm572-node /var/vhost/vagrant-1.8.6-boxcutter-centos67-2.0.14
